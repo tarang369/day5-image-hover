@@ -1,0 +1,18 @@
+.effect {
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+img {
+  width: 400px;
+  height: 400px;
+  filter: brightness(0.5);
+  transition: 1s all;
+}
+
+img:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  filter: brightness(1);
+}
